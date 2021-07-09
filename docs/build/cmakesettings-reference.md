@@ -258,6 +258,7 @@ The following macros can be used in *CMakeSettings.json*:
 - `${workspaceHash}` – hash of workspace location; useful for creating a unique identifier for the current workspace (for example, to use in folder paths)
 - `${projectFile}` – the full path of the root CMakeLists.txt file
 - `${projectDir}` – the full path of the folder of the root CMakeLists.txt file
+- `${projectDirName}` – the name of the folder of the root CMakeLists.txt file
 - `${thisFile}` – the full path of the  `CMakeSettings.json` file
 - `${name}` – the name of the configuration
 - `${generator}` – the name of the CMake generator used in this configuration
